@@ -4,7 +4,7 @@ public class userLogWithDoWhile {
     static void main() {
         Scanner input = new Scanner(System.in);
         int pass;
-        boolean askPassword = true;
+        boolean askPassword = false;
 
         do{
             System.out.print("Enter a password: ");
