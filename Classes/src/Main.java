@@ -1,7 +1,7 @@
 public class Main {
 
     public static void main(String[] args){
-        Car audi = new Car();
+        Car audi = new Car("Sudi", 10);
         audi.model = "Audi A3";
         audi.speed = 10;
         audi.increaseSpeed(20);
